@@ -1,0 +1,449 @@
+header {
+	background-color: white;
+	height: 90px;
+	padding: 20px;
+	padding-bottom: 30px;
+
+}
+
+.nav-link  {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background-color: none;
+
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	background-color: none;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background-color: none;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	background-color: none;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	background-color: none;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	background-color: none;
+	font-size: 20px;
+}
+
+.pie {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	
+}
+
+.pie2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	
+}
+.titulo_pie {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	
+}
+
+.little {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	background-color: none;
+	font-size: 16px;
+}
+
+
+.titulo_carrusel {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background-color: none;
+	font-size: 25px;
+}
+
+.subtitulo_carrusel {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background-color: none;
+	font-size: 30px;
+}
+
+
+.dropdown-item { 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background-color: none;
+}
+
+.donar {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.leer_mas {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	margin-left: 35px;
+}
+
+.noticias {
+		font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+}
+
+.social {
+	background-color: #232948;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+.caja01 {
+	background-color: antiquewhite;
+	height: 50px;
+}
+
+.noticia01 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.noticia02 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.noticia03 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.imgAnimate {
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+	transform: scale(1,1);
+}
+
+.imgAnimate:hover {
+	transform: scale(2,2);
+}
+
+.circulo {
+	position: relative;
+	left: 100px;
+	bottom: 800px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	transition: all 0.3s;
+	transform: scale(1,1);
+	z-index: 1;
+}
+
+.circulo:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
+
+.simbolo {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	top: 25px;
+	left: 25px;
+	transition: all 0.3s;
+	opacity: 0.0;
+   	filter: alpha(opacity=100);
+}
+
+.simbolo:hover {
+	opacity: 1.0;
+   	filter: alpha(opacity=100);
+}
+
+	
+
+.circulo2 {
+	position: relative;
+	bottom: 550px;
+	left: 170px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 120px;
+	transition: all 0.3s;
+	z-index: 1;
+	transform: scale(1,1);
+}
+
+.circulo2:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
+
+.circulo3 {
+	position: relative;
+	bottom: 260px;
+	left: 145px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 120px;
+	transition: all 0.3s;
+	z-index: 1;
+	transform: scale(1,1);
+}
+
+.circulo3:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
+
+.circulo4 {
+	position: relative;
+	bottom: 60px;
+	left: 55px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 120px;
+	transition: all 0.3s;
+	z-index: 1;
+	transform: scale(1,1);
+}
+
+.circulo4:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
+
+.circulo5 {
+	position: relative;
+	top: 50px;
+	left: 30px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 120px;
+	transition: all 0.3s;
+	z-index: 1;
+	transform: scale(1,1);
+}
+
+.circulo5:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
+
+.circulo6 {
+	position: relative;
+	top: 45px;
+	left: 15px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 120px;
+	transition: all 0.3s;
+	z-index: 1;
+	transform: scale(1,1);
+}
+
+.circulo6:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
+
+.howbox01 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 400px;
+	top: 0px;
+}
+
+.howbox01:hover {
+
+	height: 200px;
+
+}
+
+.howbox02 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 65px;
+	top: 170px;
+}
+
+.howbox02:hover {
+
+	height: 230px;
+
+}
+
+.howbox03 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 0px;
+	top: 450px;
+}
+
+.howbox03:hover {
+
+	height: 180px;
+
+}
+
+.howbox04 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 130px;
+	top: 700px;
+}
+
+.howbox04:hover {
+
+	height: 240px;
+
+}
+
+.howbox05 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 700px;
+	top: 700px;
+}
+
+.howbox05:hover {
+
+	height: 230px;
+
+}
+
+.howbox06 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 825px;
+	top: 450px;
+}
+
+.howbox06:hover {
+
+	height: 200px;
+
+}
+
+.howbox07 {
+	width: 250px;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.3s;
+	position: absolute;
+	right: 760px;
+	top: 170px;
+}
+
+.howbox07:hover {
+
+	height: 270px;
+
+}
+
+.rounded {
+	padding: 15px;
+	max-width: 900px;
+	max-height: 900px;
+}
