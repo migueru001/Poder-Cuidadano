@@ -447,3 +447,7 @@ p {
 	max-width: 900px;
 	max-height: 900px;
 }
+
+.azulOscuro {
+	background-color: #232948;
+}
