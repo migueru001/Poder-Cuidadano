@@ -5,58 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Poder Cuidadano Oficial Website</title>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
-	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	  <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="float-left">
-          <a href="index.html"><img src="images/index/logo-header.png" class="img-fluid" alt="Placeholder image"></a>
-        </div>
-        <div class="float-right" style='margin-left: 30px;position: relative; bottom: 15px;'>
-          <a class="text-white pie" href="https://twitter.com/poderciudadano"><i class="fab fa-twitter-square" style='font-size:40px;color:#007bff;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-          <a class="text-white pie" href="https://www.facebook.com/poderciudadano.org"><i class="fab fa-facebook-square" style='font-size:40px;color:#007bff;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-          <a class="text-white pie" href="https://www.instagram.com/fundacionpoderciudadano/"><i class="fab fa-instagram-square" style='font-size:40px;color:#007bff;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-          <a class="text-white pie" href="https://www.linkedin.com/company/poderciudadano/"><i class="fab fa-linkedin" style='font-size:40px;color:#007bff;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-          <a class="text-white pie" href="https://www.youtube.com/channel/UCBufcQ4LtT-WjWueCPjyklA"><i class="fab fab fa-youtube" style='font-size:40px;color:#007bff;margin-right: none;padding-top:15px;padding-bottom: 15px;'></i></a>
-        </div>
-        <div class="float-right">
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-          </form>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-8 col-lg-9 col-xl-9 d-flex justify-content-start align-items-center">
+            <a href="index.html"><img src="images/index/logo-header.png" class="img-fluid" alt="Placeholder image"></a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 d-flex align-items-center justify-content-start  flex-column flex-sm-column flex-md-column flex-lg-column flex-xl-column">
+            <div  style="	height: 40px;width: 100%;display: flex;flex-direction: row;justify-content: space-between;align-items: center;background-color: white;margin-bottom: 5px;">
+              <a href="https://twitter.com/poderciudadano"><i class="fab fa-twitter-square" style='font-size:30px;color:#007bff;margin-right: none;margin-left: none;padding-top:15px;padding-bottom: 15px;'></i></a>
+              <a href="https://www.facebook.com/poderciudadano.org"><i class="fab fa-facebook-square" style='font-size:30px;color:#007bff;margin-right: none;padding-top:15px;padding-bottom: 15px;'></i></a>
+              <a  href="https://www.instagram.com/fundacionpoderciudadano/"><i class="fab fa-instagram-square" style='font-size:30px;color:#007bff;margin-right: none;padding-top:15px;padding-bottom: 15px;'></i></a>
+              <a  href="https://www.linkedin.com/company/poderciudadano/"><i class="fab fa-linkedin" style='font-size:30px;color:#007bff;margin-right: none;padding-top:15px;padding-bottom: 15px;'></i></a>
+              <a  href="https://www.youtube.com/channel/UCBufcQ4LtT-WjWueCPjyklA"><i class="fab fab fa-youtube" style='font-size:30px;color:#007bff;margin-right: none;padding-top:15px;padding-bottom: 15px;'></i></a>
+            </div>
+            <div class="input-group md-form form-sm form-2 pl-0" style="margin-top: 5px;margin-bottom: 5px;">
+              <input class="form-control my-0 py-1 red-border" type="text" placeholder="Buscar" aria-label="Search" style="padding-left: 10px;">
+              <div class="input-group-append">
+                <span class="input-group-text bg-primary lighten-3" id="basic-text1"><i class="fas fa-search text-white"
+                    aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+	  </div>
     </header>
-  <nav class="navbar navbar-expand-lg navbar-light border border-Muted border-right-0 border-left-0">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sobre Poder Cuidadano </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item text-primary" href="#">Nuestra historia y fundadores/as</a> 
-                <a class="dropdown-item text-primary" href="#">Misión y visión</a>
-                <a class="dropdown-item text-primary" href="#">Consejo de Administración</a>
-                <a class="dropdown-item text-primary" href="#">Equipo</a>
-                <a class="dropdown-item text-primary" href="#">Transparencia</a>
-              </div>    
-          </li>
-          <li class="nav-item active"> <a class="nav-link text-primary" href="#">Publicaciones</a> </li>
-          <li class="nav-item active"> <a class="nav-link text-primary" href="#">ALAC</a> </li>
-          <li class="nav-item active"> <a class="nav-link text-primary" href="contacto.html">Contacto</a> </li>
-        </ul>
+    <div class="container d-flex justify-content-center">
+      <div class="row col-12 d-flex flex-row d-flex justify-content-end">
+        <button type="button" class="btn btn-warning donar BotonDenuncia01">Denunciá</button>
       </div>
-        <div class="float-right"><button type="button" class="btn btn-warning donar">Denunciá</button></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark border border-Muted border-right-0 border-left-0 border-white bg-primary">
+      <div class="container">
+        <div class="col-12">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sobre Poder Cuidadano </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown1" style="padding-right: 15px;padding-left: 15px;">
+                    <a class="dropdown-item text-primary" href="historia_y_fundadores.html">Nuestra historia y fundadores/as</a> 
+                    <a class="dropdown-item text-primary" href="MisionVision.html">Misión y visión</a>
+                    <a class="dropdown-item text-primary" href="consejoAdministracion.html">Consejo de Administración</a>
+                    <a class="dropdown-item text-primary" href="equipo.html">Equipo</a>
+                    <a class="dropdown-item text-primary" href="menuProyectos.html">Nuestros Proyectos</a>
+                    <a class="nav-link dropdown-toggle text-primary" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left: 23px;">Transparencia</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="codigoEtica.html">Código de Ética</a>
+                      <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="estatuto.html">Estatuto</a>
+                      <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="donantesAlianzas.html">Donantes y Alianzas</a>
+                      <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="MemoriasBalances.html">Memorias y Balances</a>
+                    </div>
+                  </div>    
+              </li>
+              <li class="nav-item active"> <a class="nav-link text-white" href="#">Publicaciones</a> </li>
+              <li class="nav-item active"> <a class="nav-link text-white" href="#">ALAC</a> </li>
+              <li class="nav-item active"> <a class="nav-link text-white" href="contacto.html">Contacto</a> </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
+
+
     <section>
       <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -68,33 +93,37 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-              <img class="d-block w-100" src="images/index/congresoBlue.png" alt="First slide">
+              <img class="d-block w-100 ImagenCarrusel" id="Principal" src="images/index/congresoBlue01A.png" alt="First slide">
+              <img class="d-block w-100 ImagenCarrusel" id="Secundaria" src="images/index/congresoBlue02A.png" alt="First slide">
+              <img class="d-block w-100 ImagenCarrusel" id="Terciaria" src="images/index/congresoBlue03A.png" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                <h3 class="titulo_carrusel">Promovemos la participación ciudadana</h3><br> 
               </div>  
+              
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/index/congresoBlue.png" alt="Second slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Principal" src="images/index/congresoBlue01B.png" alt="First slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Secundaria" src="images/index/congresoBlue02B.png" alt="First slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Terciaria" src="images/index/congresoBlue03B.png" alt="First slide">
+            </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 ImagenCarrusel" id="Principal" src="images/index/congresoBlue01C.png" alt="First slide">
+              <img class="d-block w-100 ImagenCarrusel" id="Secundaria" src="images/index/congresoBlue02C.png" alt="First slide">
+              <img class="d-block w-100 ImagenCarrusel" id="Terciaria" src="images/index/congresoBlue03C.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="titulo_carrusel">Promovemos la transparencia</h3><br>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/index/congresoBlue.png" alt="Third slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Principal" src="images/index/congresoBlue01D.png" alt="First slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Secundaria" src="images/index/congresoBlue02D.png" alt="First slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Terciaria" src="images/index/congresoBlue03D.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-              <h3 class="titulo_carrusel">Promovemos el acceso a la información pública</h3><br>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/index/congresoBlue.png" alt="fourth slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Principal" src="images/index/congresoBlue01E.png" alt="First slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Secundaria" src="images/index/congresoBlue02E.png" alt="First slide">
+            <img class="d-block w-100 ImagenCarrusel" id="Terciaria" src="images/index/congresoBlue03E.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
-               <h3 class="titulo_carrusel">Fortalecemos las instituciones de la democracia argentina</h3><br>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/index/congresoBlue.png" alt="Five slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="titulo_carrusel">Somos el Capítulo Argentino de Transparencia Internacional</h3><br>
             </div>
           </div>  
         </div>
@@ -107,64 +136,98 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </section>
-    <section>
-      <hr>
+  </section>
+  <section>
 	  <br>
+    <br>
+    <div class="container">
+      <div class="row" >
+        <div class="col-12 "><h1 class="text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">Noticias</h1></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!--Seccion de Noticias Inicio-->
+    <div class="container-fluid">
+
+      <div class="d-flex justify-content-center flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row">
+        <div class="NoticiaCaja01" style="position: relative;">
+          <div class="NoticiaCaja01Color">
+            <p class="noticia01 text-dark" style="display: block;padding:10px;background-color: rgba(255, 255, 255, 0.65);text-align: justify;">Poder Ciudadano profundizará el trabajo del Observatorio de Compras COVID-19 con el apoyo de Partnership for Transparency Fund</p>
+            <div id="BotonNoticia" style="width: 100%; background-color: none;"><a href="noticia1.html" class="text-white"><button type="button" class="btn btn-primary btn-sm btn-lg" style="margin-top:5px;">Leer Noticia Completa</button></a></div>
+          </div>
+          <img class="img-fluid imgAnimate" src="images/noticias/menu/noticia01/Observatorio-de-Compras-COVID-19.png">
+        </div>
+
+        <div class="NoticiaCaja02"></div>
+
+        <div class="NoticiaCaja03">
+
+          <div class="NoticiaCaja04" style="position: relative;">
+            <div class="NoticiaCaja02Color">
+              <p class="noticia02 text-dark" style="display: block;padding:10px;background-color: rgba(255, 255, 255, 0.65);">Contrataciones públicas en estado de emergencia: ¿Cómo garantizar la transparencia?</p>
+              <div id="BotonNoticia" style="width: 100%; background-color: none;"><a href="noticia2.html" class="text-white"><button type="button" class="btn btn-primary btn-sm btn-lg">Leer Noticia Completa</button></a></div>
+            </div>
+            <img class="img-fluid imgAnimate" src="images/noticias/menu/noticia02/AGNauditoria.png">
+          </div>
+
+          <div class="NoticiaCaja05" style="position: relative;">
+            <div class="NoticiaCaja02Color">
+              <p class="noticia02 text-dark" style="display: block;padding:10px;background-color: rgba(255, 255, 255, 0.65);">Falta de transparencia y rendición de cuentas en las compras realizadas por el Gobierno Nacional en el marco del COVID-19</p>
+              <div id="BotonNoticia" style="width: 100%; background-color: none;"><a href="noticia3.html" class="text-white"><button type="button" class="btn btn-primary btn-sm btn-lg">Leer Noticia Completa</button></a></div>
+            </div>
+            <img class="img-fluid imgAnimate" src="images/noticias/menu/noticia03/Covid-19.png">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+      
+
+      
+        <br>
+      <br>
+      <br>
       <div class="container">
-        <div class="row" >
-          <div class="col-12"><h1 class="text-primary">Noticias</h1></div>
+        <div class="text-center text-sm-center text-md-center text-lg-center text-xl-center">
+          <a href="menuNoticias.html"><button type="button" class="btn btn-outline-primary btn-sm noticias">Ver más noticias</button></a>
         </div>
       </div>
-      <br>
-      <br>
-      <div class="container">
-        <div class="row" >
-          <div class="col-8" style="height: 550px;">
-		    <a href="noticias2.html" class="text-white"><button type="button" class="btn btn-primary btn-lg" style="position: absolute;z-index:2;top: 250px; left: 100px;font-weight: 700">Aquí va la noticia numero uno</button></a>
-			<div style="background-color: none; width: 570px;height: 180px;overflow:auto;position: absolute;z-index:1;top: 320px; left: 100px;"><p class="noticia01">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p></div>
-            <div class="col-12 d-flex justify-content-center align-content-center" style="height: 550px;overflow: hidden;"> <img class="img-fluid imgAnimate" src="images/index/imagen01.png"></div>
-          </div>
-          <div class="col-4" style="height: 550px;">
-			<a href="noticias2.html" class="text-white"><button type="button" class="btn btn-primary btn-sm" style="position: absolute;z-index:2;top: 80px; left: 70px;font-weight: 700">Aquí va la noticia número dos</button></a>
-			<div style="background-color: none; width: 245px;height: 90px;overflow:auto;position: absolute;z-index:2;top: 130px; left: 70px;"><p class="noticia02">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
-            <div class="col-12" style="height: 250px;margin-bottom: 50px;overflow: hidden;"><img class="img-fluid imgAnimate" src="images/index/imagen02.png"></div>
-			<a href="noticias2.html" class="text-white"><button type="button" class="btn btn-primary btn-sm" style="position: absolute;z-index:2;top: 370px; left: 70px;font-weight: 700">Aquí va la noticia número tres</button></a>
-			<div style="background-color: none; width: 245px;height: 90px;overflow:auto;position: absolute;z-index:3;top: 430px; left: 70px;"><p class="noticia03">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p></div>
-			<div class="col-12" style="height: 250px;overflow: hidden;"><img class="img-fluid imgAnimate" src="images/index/imagen03.png"></div>
-          </div>  
-        </div>
-        <br>
-        <br>
+
+    
+    <!--Seccion de Noticias Fin-->
         <div class="container">
-          <div class="d-flex justify-content-center">
-            <a href="noticias.html"><button type="button" class="btn btn-outline-primary btn-sm noticias">Ver más noticias</button></a>
-          </div>
-        </div>
-        <hr class="my-4">
-        <div class="container">
+          <br>
+          <br>
+          <hr class="my-4">
+          <br>
+          <br>
           <div class="row" >
             <div class="col-12">
-              <h1 class="text-primary">¿Qué ejes trabajamos?</h1>
+              <h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">¿Qué ejes trabajamos?</h1>
             </div>
           </div>
           <br>
           <br>
-          <div class="row" >
-            <div class="col-5 d-flex justify-content-center">
-				<div style="width: 400px;height: 340px;background-color: white;position: relative;top: 75px;">
-					<div class="circulo5"><img src="images/index/acceso_a_la_informacion_publica-01.svg" class="mr-3 simbolo" alt="..."></div>	
-					<div class="circulo4"><img src="images/index/justicia_icono.svg" class="mr-3 simbolo" alt="..."></div>	
-					<div class="circulo3"><img src="images/index/división_de_poderes-01.svg" class="mr-3 simbolo" alt="..."></div>
-					<div class="circulo2"><img src="images/index/elecciones-01.svg" class="mr-3 simbolo" alt="..."></div>
-					<div class="circulo"><img src="images/index/etica_y_transparencia-01.svg" class="mr-3 simbolo" alt="..."></div>
-				</div>
+          <div class="container">  
+          <div class="row d-flex justify-content-center align-items-center flex-column flex-sm-column flex-md-column flex-lg-row flex-xl-row"><!--Ojo Aquí abre-->
+      <div  class="col-12  col-sm-12  col-md-12  col-lg-6  col-xl-6 d-flex justify-content-center align-items-center">
+          <div  class="cajaAnimacion CajaCirculos" >
+            <div class="circulo5"><a onclick="mostrar05();"><img src="images/index/acceso_a_la_informacion_publica-01.svg" class="mr-3 simbolo" alt="..."></a></div>	
+            <div class="circulo4"><a onclick="mostrar04();"><img src="images/index/justicia_icono.svg" class="mr-3 simbolo" alt="..."></a></div>	
+            <div class="circulo3"><a onclick="mostrar03();"><img src="images/index/circulo03.svg" class="mr-3 simbolo" alt="..."></a></div>
+            <div class="circulo2"><a onclick="mostrar02();"><img src="images/index/elecciones-01.svg" class="mr-3 simbolo" alt="..."></a></div>
+            <div class="circulo"><a onclick="mostrar01();"><img src="images/index/etica_y_transparencia-01.svg" class="mr-3 simbolo" alt="..."></a></div>
+          </div>
 			</div>
-            <div class="col-1"></div>
-            <div class="col-6 card" style="overflow:auto;background-color: white;height: 460px;">
-              <div class="img-fluid">
-                <img src="images/index/ejesPortada-01.png" class="rounded" alt="..."  style="max-width:500;width: 100%;position: relative;bottom: 0px;"><!--OJO-->
-              </div>
+      
+            <div class="col-12  col-sm-12  col-md-12  col-lg-6  col-xl-6 card" style="overflow:auto;background-color: white;height: 460px;">
+              <div class="col-12" id="etica" style="display: none;">
+			
               <br>
               <li class="media">
                 <img src= "images/index/iconoA-01.svg" class="mr-3" alt="..." style="width: 55px;height: 55px;">
@@ -174,11 +237,14 @@
               </li>
               <hr class="my-4" style="position: relative; top: 0px;">
               <div class="media-body" style="margin-top: 0px;">
-              <p class="mt-0 mb-1 text-left">Monitoreamos el cumplimiento de la Ley de Ética Pública y sus componentes fundamentales. Realizamos el seguimiento de temas de corrupción, tanto de causas judiciales como en casos de interés, generando recomendaciones basadas en estándares internacionales y obligaciones constitucionales. Evaluamos el uso de recursos públicos y fomentamos la ética en el sector privado a través de la promoción y el fortalecimiento de mecanismos de transparencia y rendición de cuentas tanto a nivel interno como en su relación con el Estado.
+              <p class="mt-0 mb-1 text-justify ejes">Monitoreamos el cumplimiento de la Ley de Ética Pública y sus componentes fundamentales. Realizamos el seguimiento de temas de corrupción, tanto de causas judiciales como en casos de interés, generando recomendaciones basadas en estándares internacionales y obligaciones constitucionales. Evaluamos el uso de recursos públicos y fomentamos la ética en el sector privado a través de la promoción y el fortalecimiento de mecanismos de transparencia y rendición de cuentas tanto a nivel interno como en su relación con el Estado.
               </p>
               <br>
               </div>
-			        <br>
+              </div>
+              <div class="col-12" id="Elecciones" style="display: none;">
+			 
+			  <br>
               <li class="media">
                 <img src= "images/index/iconoC-01.svg" class="mr-3" alt="..." style="width: 55px;height: 55px;">
                 <div class="media-body" style="margin-top: 15px;">
@@ -188,10 +254,14 @@
               <hr class="my-4" style="position: relative; top: 0px;">
               
               <div class="media-body" style="margin-top: 0px;">
-              <p class="mt-0 mb-1 text-left">Promovemos reformas electorales con eje en la integridad de la competencia y foco en sistemas de financiamiento transparente, orientados a la rendición cuentas sobre los recursos que utiliza y, sobre todo, su origen. Monitoreamos campañas electorales y promovemos la figura de la observación electoral. Atendemos denuncias de la ciudadanía: antes y durante los procesos electorales por intermedio del ALAC. Brindamos información electoral y capacitación ciudadana en temas electorales.
+              <p class="mt-0 mb-1 text-justify ejes">Promovemos reformas electorales con eje en la integridad de la competencia y foco en sistemas de financiamiento transparente, orientados a la rendición cuentas sobre los recursos que utiliza y, sobre todo, su origen. Monitoreamos campañas electorales y promovemos la figura de la observación electoral. Atendemos denuncias de la ciudadanía: antes y durante los procesos electorales por intermedio del ALAC. Brindamos información electoral y capacitación ciudadana en temas electorales.
               </p>
               <br>
               </div>
+            </div>
+
+            <div class="col-12" id="DivisionPoderes" style="display: none;">
+			  
               <br>
               <li class="media">
                 <img src= "images/index/iconoB-01.svg" class="mr-3" alt="..." style="width: 55px;height: 55px;">
@@ -201,15 +271,15 @@
               </li>
               <hr class="my-4" style="position: relative; top: 0px;">
               <div class="media-body" style="margin-top: 0px;">
-              <p class="mt-0 mb-1 text-left">Promovemos la independencia del Poder Judicial frente a las mayorías, controlamos la función legislativa del Poder Ejecutivo, y promovemos la reducción de rangos de discrecionalidad. Impulsamos el fortalecimiento y control de la función del Poder Legislativo, trabajando en su independencia de las mayorías así como en su transparencia.
+              <p class="mt-0 mb-1 text-justify ejes">Promovemos la independencia del Poder Judicial frente a las mayorías, controlamos la función legislativa del Poder Ejecutivo, y promovemos la reducción de rangos de discrecionalidad. Impulsamos el fortalecimiento y control de la función del Poder Legislativo, trabajando en su independencia de las mayorías así como en su transparencia.
               </p>
               <br>
-              <br>
-              <br>
-              <br>
-              <br>
               </div>
-              <br>
+            </div>
+
+
+            <div class="col-12" id="AccesoJusticia" style="display: none;">
+		      
               <br>
               <li class="media">
                 <img src= "images/index/iconoE-01.svg" class="mr-3" alt="..." style="width: 55px;height: 55px;">
@@ -219,11 +289,13 @@
               </li>
               <hr class="my-4" style="position: relative; top: 0px;">
               <div class="media-body" style="margin-top: 0px;">
-              <p class="mt-0 mb-1 text-left">Monitoreamos políticas públicas de Acceso a la Justicia. Fortalecemos comunidades a partir del desarrollo de capacitaciones sobre herramientas de participación, control social e incidencia, así como a partir del asesoramiento a organizaciones y la difusión de información e investigaciones. Promovemos la incorporación de TIC para mejorar el acceso a servicios jurídicos. Incentivamos reformas e instancias que posibiliten la resolución alternativa de conflictos como mecanismos facilitadores de Acceso a la Justicia.
+              <p class="mt-0 mb-1 text-justify ejes">Monitoreamos políticas públicas de Acceso a la Justicia. Fortalecemos comunidades a partir del desarrollo de capacitaciones sobre herramientas de participación, control social e incidencia, así como a partir del asesoramiento a organizaciones y la difusión de información e investigaciones. Promovemos la incorporación de TIC para mejorar el acceso a servicios jurídicos. Incentivamos reformas e instancias que posibiliten la resolución alternativa de conflictos como mecanismos facilitadores de Acceso a la Justicia.
               </p>
               <br>
-              <br>
               </div>
+            </div>
+            <div class="col-12" id="InformacionPublica" style="display: none;">
+			  
               <br>
               <li class="media">
                 <img src= "images/index/iconoD-01.svg" class="mr-3" alt="..." style="width: 55px;height: 55px;">
@@ -233,115 +305,100 @@
               </li>
               <hr class="my-4" style="position: relative; top: 0px;">
               <div class="media-body" style="margin-top: 0px;">
-              <p class="mt-0 mb-1 text-left">Promovemos y fortalecemos el Acceso a la Información Pública como derecho efectivo, generando recomendaciones orientadas a la mejora continua y judicializando los casos de incumplimiento por parte de las autoridades obligadas. Fomentamos los modelos de Gobierno Abierto, a nivel nacional y subnacional basados en estándares internacionales y principios de transparencia activa.
+              <p class="mt-0 mb-1 text-justify ejes">Promovemos y fortalecemos el Acceso a la Información Pública como derecho efectivo, generando recomendaciones orientadas a la mejora continua y judicializando los casos de incumplimiento por parte de las autoridades obligadas. Fomentamos los modelos de Gobierno Abierto, a nivel nacional y subnacional basados en estándares internacionales y principios de transparencia activa.
               </p>
-              <br>
-              <br>
-              <br>
-              <br>
+   
               </div>
               <br>
             </div>
-          </div>  
+          
+          </div>
+          </div><!--Ojo Aquí cierra-->  
         </div>
+      </div> 
+        
+        <div class="container">
+          <br>
         <br>
         <hr class="my-4">
-        <div class="container">
+        <br>
+        <br>
           <div class="row" >
             <div class="col-12">
-              <h1 class="text-primary">¿Cómo lo hacemos?</h1>
+              <h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">¿Cómo lo hacemos?</h1>
             </div>
           </div>
           <br>
-          <br>
-          <div class="text-center" style="background-color: white;position: relative">
-			<div class="howbox01 text-center"><img src="images/index/iconos_1.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Monitoreando las insttituciones de la democracia.</p>
-		  	</div>
-			<div class="howbox02 text-center"><img src="images/index/iconos_7.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Generando información y produciendo recomendaciones.</p>
-		  	</div>
-			<div class="howbox03 text-center"><img src="images/index/iconos_2.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Sensibilizando a la sociedad.</p>
-		  	</div>
-			<div class="howbox04 text-center"><img src="images/index/iconos_3.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Incentivando el debate de temas sensibles que no se encuentran en la agenda pública.</p>
-		  	</div>
-			<div class="howbox05 text-center"><img src="images/index/iconos_4.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Convocando a múltiples actores para dialogar y generar consensos.</p>
-		  	</div>
-			<div class="howbox06 text-center"><img src="images/index/iconos_5.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Promoviendo la participación cuidadana.</p>
-		  	</div>
-			<div class="howbox07 text-center"><img src="images/index/iconos_6.png" style="margin-top: 22px;margin-bottom: 20px;">
-		  		<p class="text-primary text-center" style="width: 220px;margin-left: 12px;">Asesorando jurídicamente y acompañando legalmente en
-				temas de interés público.
-				</p>
-		  	</div>
-            <img src="images/index/como_lo_hacemos.svg" class="rounded" alt="Imagen Pasos">
+          <br>   
+			<div class="row text-center" >
+            <div class="col-12 text-center">
+              <img src="images/index/como_lo_hacemos.svg" class="img-fluid " width="85%" alt="Imagen Pasos">
+            </div>
+          </div>
         </div>
-		  <br>
-		  <br>
-        </div>
-        <hr class="my-4">
+  </div>
+      
         <div class="container">
+          <br>
+          <br>
+          <hr class="my-4">
+          <br>
+          <br>
           <div class="row" >
             <div class="col-12">
-              <h1 class="text-primary">¿Cómo podés participar?</h1>
+              <h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">¿Cómo podés participar?</h1>
             </div>   
-            <div class="col-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <img src="images/index/iconos-01.png" class="card-img-top" alt="...">
-              <div class="card-body">
+              <div class="card-body" style="height: 200px;">
                 <h5 class="card-title text-center text-primary">Sumate</h5>
                 <p class="card-text text-center">Vos también podés ser parte.</p>
-                <br>
-                <br>
-                <div class="d-flex justify-content-center" style="position: relative; bottom: 18px;"> 
-                  <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Sumate!</button>
-                </div>
+              </div>
+              <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
+                <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Sumate!</button>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <img src="images/index/iconos-02.png" class="card-img-top" alt="...">
-                <div class="card-body ">
+                <div class="card-body" style="height: 200px;overflow:auto;">
                   <h5 class="card-title text-center text-primary">Doná.</h5>
                   <p class="card-text text-center">Tenés el poder de ayudar en la lucha contra la corrupción.</p>
-                  <div class="d-flex justify-content-center"> 
-                    <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Donar!</button>
-                  </div>
+                </div>
+                <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
+                  <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Donar!</button>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <img src="images/index/iconos-03.png" class="card-img-top" alt="...">
-              <div class="card-body ">
+              <div class="card-body" style="height: 200px;">
                 <h5 class="card-title text-center text-primary">Denunciá</h5>
                 <p class="card-text text-center">Tu voz puede marcar la diferencia. </p>
-                <div class="d-flex justify-content-center " style="position: relative; top: 30px;"> 
-                  <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Denunciá!</button>
-                </div>
+              </div>
+              <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
+                <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Denunciá!</button>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <img src="images/index/iconos-04.png" class="card-img-top" alt="...">
-              <div class="card-body ">
+              <div class="card-body" style="height:200px;">
                 <h5 class="card-title text-center text-primary">Contactanos</h5>
                 <p class="card-text text-center">Queremos escucharte.</p>
-                <div class="d-flex justify-content-center" style="position: relative; top: 30px;"> 
-                  <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Contactanos!</button>
-                </div>
+              </div>
+              <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
+                <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Contactanos!</button>
               </div>
             </div>
           </div>
+          <br>
+          <hr class="my-4">
+          <br>
+          <br>
         </div>
-        <br>
-        <br>
-        <hr class="my-4">
-		  
 
         <div class="container">
           <div class="row" >
             <div class="col-12">
-              <h1 class="text-primary">Nuestros proyectos</h1>
+              <h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">Nuestros proyectos</h1>
             </div>
 		  </div>
 		  <br>
@@ -355,28 +412,32 @@
 			  </ol>
 			  <div class="carousel-inner">
 				<div class="carousel-item active">
-				  <img src="images/index/impactarCarrusel.png" class="d-block w-100" alt="...">
-				  <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;">
-					<h4 class="font-weight-bold">Impactar</h4>
-					<p>Es una propuesta pensada e impulsada por organizaciones sociales vinculadas al fortalecimiento democrático en Argentina.</p>
-					<a href="proyecto01.html"><button type="button" class="btn btn-outline-light btn-sm noticias">Ver más...</button></a>
+				  <img src="images/proyectos/menu/proyecto01/impactar.png" class="d-block w-100" alt="...">
+				  <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;background-color: rgba(255, 255, 255, 0.75);padding: 20px;">
+					<h4 class="font-weight-bold text-dark">Impactar</h4>
+					<p class="text-dark carrusel">IMPACTAR es una propuesta pensada e impulsada por organizaciones sociales vinculadas al fortalecimiento democrático en Argentina. Es un trabajo conjunto de Poder Ciudadano, Asociación Civil por la Igualdad y la Justicia, y Directorio Legislativo.</p>
+          <br>
+          <a href="proyecto01.html"><button type="button" class="btn btn-primary btn-sm noticias">Ver más...</button></a>
 				  </div>
 				</div>
 				<div class="carousel-item">
-				  <img src="images/index/impactarCarrusel.png" class="d-block w-100" alt="...">
-				  <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;">
-					<h4 class="font-weight-bold">Impactar</h4>
-					<p>Es una propuesta pensada e impulsada por organizaciones sociales vinculadas al fortalecimiento democrático en Argentina.</p>
-					<a href="proyecto01.html"><button type="button" class="btn btn-outline-light btn-sm noticias">Ver más...</button></a>
-				  </div>
+          
+          <img src="images/proyectos/menu/proyecto02/Propuesta_Mineria_Desarrolo_Sostenible02.png" class="d-block w-100" alt="...">
+				  <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;background-color: rgba(255, 255, 255, 0.75);padding: 20px;">
+					<h4 class="font-weight-bold text-dark">Minería para el Desarrollo Sostenible </h4>
+					<p class="text-dark carrusel">A través de la detección de riesgos basados en evidencia y la generación de instancias de consensos con los gobiernos, la industria, la sociedad civil y las comunidades, el Programa busca mejorar la transparencia y la rendición de cuentas en procesos gubernamentales de adjudicación de licencias, permisos y contratos del sector minero.</p>
+          <br>
+          <a href="proyecto02.html"><button type="button" class="btn btn-primary btn-sm noticias">Ver más...</button></a>
+          </div>
 				</div>
 				<div class="carousel-item">
-				  <img src="images/index/impactarCarrusel.png" class="d-block w-100" alt="...">
-				  <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;">
-					<h4 class="font-weight-bold">Impactar</h4>
-					<p>Es una propuesta pensada e impulsada por organizaciones sociales vinculadas al fortalecimiento democrático en Argentina.</p>
-					<a href="proyecto01.html"><button type="button" class="btn btn-outline-light btn-sm noticias">Ver más...</button></a>
-				  </div>
+          <img src="images/proyectos/menu/proyecto03/Círculos virtuosos.png" class="d-block w-100" alt="...">
+				  <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;background-color: rgba(255, 255, 255, 0.75);padding: 20px;">
+					<h4 class="font-weight-bold text-dark">Círculos virtuosos: Co-creación de entornos de integridad en el sector energético para el desarrollo sostenible</h4>
+					<p class="text-dark carrusel">La energía es movimiento. Y para un país como Argentina, el desarrollo energético puede generar un verdadero impulso hacia un crecimiento productivo que impacte positivamente en las condiciones de vida de toda su población.</p>
+          
+          <a href="proyecto03.html"><button type="button" class="btn btn-primary btn-sm noticias">Ver más...</button></a>
+          </div>
 				</div>
 			  </div>
 			  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -389,54 +450,138 @@
 			  </a>
 			</div>
           </div>
+          <br>
+          <br>
+
+          <div id="CajaProyectos02">
+          <div class="container">
+            <div class="text-center text-sm-center text-md-center text-lg-center text-xl-center">
+              <a href="menuProyectos.html"><button type="button" class="btn btn-outline-primary btn-sm noticias">Ver más Proyectos</button></a>
+            </div>
+          </div>
         </div>
-        <br>
-        <br>
-        <hr class="my-4">
-      </div>
+
+          <div id="CajaProyectos">
+            
+            <br>
+            <a href="proyecto01.html"><button type="button" class="btn btn-outline-primary btn-lg btn-block btn-sm"><strong>Proyecto Impactar</strong></button></a>
+            <br>
+            <a href="proyecto02.html"><button type="button" class="btn btn-outline-primary btn-lg btn-block btn-sm"><strong>Proyecto Minería para el Desarrollo Sostenible</strong></button></a>
+            <br>
+            <a href="proyecto03.html"><button type="button" class="btn btn-outline-primary btn-lg btn-block btn-sm"><strong>Proyecto Círculos virtuosos</strong></button></a>
+            <br>
+            <br>
+            <br>
+            <div class="container">
+              <div class="text-center text-sm-center text-md-center text-lg-center text-xl-center">
+                <a href="menuProyectos.html"><button type="button" class="btn btn-outline-primary btn-sm noticias">Ver más Proyectos</button></a>
+              </div>
+            </div>
+          </div>
+          
+          <br>
+          <br>
+          <hr class="my-4">
+          <br>
+          <br>
+        </div>
 	</section>
     <section>
       <div class="container">
         <div class="row">
-          <div class="col"><h1 class="text-primary">Nos Acompañan</h1></div>
+          <div class="col"><h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">Nos Acompañan</h1></div>
         </div>
         <div class="row">
-          <div class="col-3"><img src="images/index/01.png" alt="..." class="img-fluid"></div>
-          <div class="col-3"><img src="images/index/02.png" alt="..." class="img-fluid"></div>
-          <div class="col-3"><img src="images/index/03.png" alt="..." class="img-fluid"></div>
-          <div class="col-3"><img src="images/index/04.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/01.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/02.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/03.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/04.png" alt="..." class="img-fluid"></div>
         </div>
         <div class="row">
-          <div class="col-3"><img src="images/index/05.png" alt="..." class="img-fluid"></div>
-          <div class="col-3"><img src="images/index/06.png" alt="..." class="img-fluid"></div>
-          <div class="col-3"><img src="images/index/07.png" alt="..." class="img-fluid"></div>
-          <div class="col-3"><img src="images/index/08.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/05.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/06.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/07.png" alt="..." class="img-fluid"></div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3"><img src="images/index/08.png" alt="..." class="img-fluid"></div>
         </div>
+		<br>
+        <hr class="my-4">	   
       </div>
-      <br>
+	  <br>
+    <br>
+	  <div class="container">
+		<div class="row" >
+    		<div class="col-12"><h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">Contacto</h1></div>
+	 	</div>
+	  </div>  
+	  <br>
+	  <br> 
+	  <div class="container">
+	  	<div class="row" >
+			<div class="col">
+				<form>
+					<div class="form-row">
+    					<div class="col-md-6 mb-3">
+      						<label for="validationCustom01">Nombre</label>
+      						<input type="text" class="form-control" id="validationCustom01" value="Su nombre aquí" required>
+      						<div class="valid-feedback">
+        					Looks good!
+      						</div>
+    					</div>
+	    				<div class="col-md-6 mb-3">
+	      					<label for="validationCustom02">Apellido/s</label>
+	      					<input type="text" class="form-control" id="validationCustom02" value="Su apellido aquí" required>
+	      					<div class="valid-feedback">
+	        				Looks good!
+	      					</div>
+	    				</div>
+  					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Correo electrónico</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+					</div>
+		  			<div class="form-group">
+						<label for="inputAddress">Asunto</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="Escriba aquí el asunto">
+		  			</div>
+					<div class="form-group">
+    					<label for="exampleFormControlTextarea1">Mensaje</label>
+    					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba aquí el mensaje"></textarea>
+            </div>
+            <br>
+            <br>
+            <div class="col-12 text-center text-sm-center text-md-center text-lg-center text-xl-center">
+          <button type="submit" class="btn btn-outline-primary">Enviar</button> 
+        </div>
+				</form>		
+   			</div>
+		</div>
+	</div>
+   	<br>
+	<br>
+	<br>
     </section>
     <footer class="bg-primary">
-      <div class="azulOscuro">
-        <div class="container">
-          <div class="row">
-            <div class="col-6 d-flex justify-content-start align-items-center">
-              <h3 class="text-white social">Seguinos en nuestras redes sociales</h3>
+      <div class="azulClaro border border-right-0 border-left-0 border-white" style="padding-top: 15px;padding-bottom: 15px;" >
+        <div class="container d-flex flex-row justify-content-center align-items-center">
+          <div class="row col-12 d-flex flex-row align-items-center">
+            <div class="col-12 col-sm-6 col-md-8 col-lg-9 col-xl-9 d-flex justify-content-center justify-content-sm-start justify-content-md-start justify-content-lg-start justify-content-xl-start align-items-center">
+              <h3 class="text-white social text-center text-sm-left text-md-left text-lg-left text-xl-left" >Seguinos en nuestras redes sociales</h3>
             </div>
-            <div class="col-6 d-flex justify-content-end" style="position: relative; left: 25px;"> 
-              <a class="text-white pie" href="https://twitter.com/poderciudadano"><i class="fab fa-twitter-square" style='font-size:40px;color:white;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-              <a class="text-white pie" href="https://www.facebook.com/poderciudadano.org"><i class="fab fa-facebook-square" style='font-size:40px;color:white;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-              <a class="text-white pie" href="https://www.instagram.com/fundacionpoderciudadano/"><i class="fab fa-instagram-square" style='font-size:40px;color:white;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-              <a class="text-white pie" href="https://www.linkedin.com/company/poderciudadano/"><i class="fab fa-linkedin" style='font-size:40px;color:white;margin-right: 10px;padding-top:15px;padding-bottom: 15px;'></i></a>
-              <a class="text-white pie" href="https://www.youtube.com/channel/UCBufcQ4LtT-WjWueCPjyklA"><i class="fab fab fa-youtube" style='font-size:40px;color:white;margin-right: 13px;padding-top:15px;padding-bottom: 15px;'></i></a>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" style="	height: 40px; width: 100%; display: flex; flex-direction: row; justify-content: space-around; align-items: center; margin-bottom: 5px; margin-top: 5px; "> 
+              <a href="https://twitter.com/poderciudadano"><i class="fab fa-twitter-square" style='font-size:30px;color:white;;padding-top:15px;padding-bottom: 15px;padding-left: 0px;padding-right: 5px;'></i></a>
+              <a href="https://www.facebook.com/poderciudadano.org"><i class="fab fa-facebook-square" style='font-size:30px;color:white;padding-top:15px;padding-bottom: 15px;padding-left: 5px;padding-right: 5px;'></i></a>
+              <a  href="https://www.instagram.com/fundacionpoderciudadano/"><i class="fab fa-instagram-square" style='font-size:30px;color:white;margin-right: none;padding-top:15px;padding-bottom: 15px;padding-left: 5px;padding-right: 5px;'></i></a>
+              <a  href="https://www.linkedin.com/company/poderciudadano/"><i class="fab fa-linkedin" style='font-size:30px;color:white;margin-right: none;padding-top:15px;padding-bottom: 15px;padding-left: 5px;padding-right: 5px;'></i></a>
+              <a  href="https://www.youtube.com/channel/UCBufcQ4LtT-WjWueCPjyklA"><i class="fab fab fa-youtube" style='font-size:30px;color:white;margin-right: none;padding-top:15px;padding-bottom: 15px;padding-left: 10px;padding-right: 0px;'></i></a>
             </div>
           </div>
         </div>
       </div> 
-      <div class="container text-white bg-primary p-5" >
+      <div class="container text-white">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6" style="padding-top: 15px;">
             <div class="row col-12">
-              <div class="col-12 text-left" style="position: relative; right: 50px;">
+              <div class="col-12 text-left">
                 <ul class="list-unstyled">
                   <li> <a class="text-white titulo_pie">Sobre Poder Ciudadano</a></li>
                   <li class="btn-link"> <a class="text-white pie">• Nuestra historia y fundadores/as</a> </li>
@@ -453,35 +598,40 @@
               </div>
             </div>   
           </div>
-          <div class="col-6 border-left">
-            <div class="d-flex justify-content-end">
-              <img src="images/index/QR-code PoderCiudadano.png" class="rounded" alt="..." style="position: relative; left: 50px;">
+
+          
+          <div class="col-6" style="padding-top: 15px;">
+            <div class="text-right" style="position: relative;right: 10px;">
+              <img id="QR" src="images/index/QR.png"  alt="QR Anticorrupción">
             </div>
             <br>
             <div class="col-12 text-left">
-              <p class="text-white pie2 text-right" style="position: relative; left: 60px;">Escaneá este QR para tener todos los datos<br> de nuestra asistencia anticorrupción</p>
+              <p class="text-white pie2 text-right">Escaneá este QR para tener todos los datos<br> de nuestra asistencia anticorrupción</p>
             </div>      
             <div class="col-12 text-left">
-              <ul class="list-unstyled" style="position: relative; left: 60px;">
+              <ul class="list-unstyled">
                 <p class="text-white pie2 text-right">Piedras 547. (C.P. C1070AAK). Bs As. - Argentina. </p>
-                <p class="text-white pie2 text-right">TEL/FAX: (+54 11) 4331 4925 I 0800 222 2684  comunicacion@poderciudadano.org</p>
+                <p class="text-white pie2 text-right">TEL/FAX: (+54 11) 4331 4925 I 0800 222 2684</p>
               </ul>
             </div>
-          </div>   
+          </div>  
         </div>
       </div>
       <div class="container">
-        <div class="row col-12">
-          <p class="text-white pie2 text-right">© Poder Ciudadano - Todos los derechos reservados</p>
+        <div class="row  d-flex justify-content-end justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end" style="padding-right: 30px;">
+          <p class="text-white pie2 text-right">comunicacion@poderciudadano.org</p>
         </div>  
       </div>
       <br>
-      <br>
+      <div style="background-color: #016bdb; padding-top: 15px;">
+        <div class="container">
+          <div class="row  d-flex justify-content-center ">
+            <p class="text-white text-center pie2" style="margin-left: 10px;margin-right: 10px;">© Poder Ciudadano - Todos los derechos reservados</p>
+          </div>  
+        </div>
+      </div>
+   
     </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.3.1.js"></script>
+
   </body>
 </html>

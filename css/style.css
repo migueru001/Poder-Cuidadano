@@ -1,16 +1,49 @@
-header {
-	background-color: white;
-	height: 90px;
-	padding: 20px;
-	padding-bottom: 30px;
 
+
+/* -------------------------------------------------- Para Resetear valores de la web Inicio ---------------------------------------------------*/
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* -------------------------------------------------- Para Resetear valores de la web Inicio ---------------------------------------------------*/
+
+/* -------------------------------------------------- Estilos Generales Inicio ---------------------------------------------------*/
+body {
+	margin: auto;
+	max-width: 1366px;
+	width: 100%;
+	background-color: white;
+	
+
+}
+header {
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	-webkit-transition: all ease .5s;
+	-o-transition: all ease .5s;
+	transition: all ease .5s;
+
+}
+/* -------------------------------------------------- Estilos Generales Fin ---------------------------------------------------*/
+
+/* -------------------------------------------------- Estilos Textos Inicio ---------------------------------------------------*/
+#interletrado {
+	letter-spacing: -1px;
 }
 
 .nav-link  {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	background-color: none;
-
 }
 
 h1 {
@@ -31,6 +64,13 @@ h3 {
 	background-color: none;
 }
 
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background-color: none;
+	font-style: italic;
+}
+
 h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -44,26 +84,31 @@ p {
 	font-size: 20px;
 }
 
+.carrusel {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background-color: none;
+	font-size: 16px;
+}
+
 .pie {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	font-size: 16px;
-	
+	font-size: 14px;	
 }
 
 .pie2 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	font-size: 15px;
-	
+	font-size: 14px;
 }
+
 .titulo_pie {
 	
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
 	text-decoration: none;
-	
 }
 
 .little {
@@ -72,7 +117,6 @@ p {
 	background-color: none;
 	font-size: 16px;
 }
-
 
 .titulo_carrusel {
 	font-family: 'Open Sans', sans-serif;
@@ -87,7 +131,6 @@ p {
 	background-color: none;
 	font-size: 30px;
 }
-
 
 .dropdown-item { 
 	font-family: 'Open Sans', sans-serif;
@@ -108,45 +151,166 @@ p {
 }
 
 .noticias {
-		font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-
 }
 
 .social {
-	background-color: #232948;
+	background-color: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	font-size: 20px;
-}
-
-
-.caja01 {
-	background-color: antiquewhite;
-	height: 50px;
+	font-size: 16px;
+	margin-top: 5px;
 }
 
 .noticia01 {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 25px;
+	font-weight: 700;
+	font-size: 26px;
+	text-align: justify;
 }
 
 .noticia02 {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 16px;
+	font-weight: 700;
+	font-size: 19px;
+	text-align: justify;
 }
 
-.noticia03 {
-	color: white;
+.ejes {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 16px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height : 40px;
+}
+/* -------------------------------------------------- Estilos Textos Fin ---------------------------------------------------*/
+
+
+/* -------------------------------------------------- Estilos Colores Inicio ---------------------------------------------------*/
+.azulOscuro {
+	background-color: #232948;
 }
 
+.azulClaro {
+	background-color: #0057a6;
+}
+/* -------------------------------------------------- Estilos Colores Fin ---------------------------------------------------*/
+
+
+/* -------------------------------------------------- Estilos Menu Nav Inicio ---------------------------------------------------*/
+
+.menu-fixed {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	max-width: 1366px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+}
+
+/* -------------------------------------------------- Estilos Menu Nav Fin ---------------------------------------------------*/
+
+
+/* -------------------------------------------------- Estilos Boton Denuncia Inicio ---------------------------------------------------*/
+.BotonDenuncia01 {
+	position: absolute;
+	top: 10px;
+	margin-left: 0px;
+	z-index: 1100;
+}
+
+.BotonDenuncia02 {
+	position: fixed;
+	top: 10px;
+	margin-left: 0px;
+	z-index: 1100;
+}
+/* -------------------------------------------------- Estilos Boton Denuncia Fin ---------------------------------------------------*/
+
+
+/* -------------------------------------------------- Estilos Cajas de Noticias Inicio ---------------------------------------------------*/
+.NoticiaCaja01 {
+	width: 60%;
+	height: 600px;
+	background-color: white;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.NoticiaCaja01Color {
+	background-color: rgba(255,255,255,0.45);
+	width: 100%;
+	height: 50%;
+	overflow:auto;
+	position: absolute;
+	z-index:1;
+	top: 50%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.NoticiaCaja02Color {
+	background-color: rgba(255,255,255,0.45);
+	width: 100%;
+	height: 90%;
+	overflow:auto;
+	position: absolute;
+	z-index:1;
+	top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.NoticiaCaja02 {
+	width: 3%;
+	height: 600px;
+	background-color: white;
+	display: inline-block;
+}
+
+.NoticiaCaja03 {
+	width: 35%;
+	height: 600px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.NoticiaCaja04 {
+	width: 100%;
+	height: 47%;
+	background-color: white;
+	display: block;
+	overflow: hidden;
+}
+
+.NoticiaCaja05 {
+	width: 100%;
+	height: 47%;
+	background-color: white;
+	display: block;
+	overflow: hidden;
+}
+/* -------------------------------------------------- Estilos Cajas de Noticias Fin ---------------------------------------------------*/
+
+/* -------------------------------------------------- Estilos Animacion Nuestros Ejes Inicio ---------------------------------------------------*/
 .imgAnimate {
 	width: 100%;
 	height: 100%;
@@ -155,39 +319,32 @@ p {
 }
 
 .imgAnimate:hover {
-	transform: scale(2,2);
+	transform: scale(1.5,1.5);
 }
 
-.imgAnimate2 {
+.imgAnimate02 {
 	width: 100%;
 	height: 100%;
 	transition: all 1s;
-	transform: scale(1,1);
+	transform: scale(1.5,1.5);
 }
 
-.imgAnimate2:hover {
-	transform: scale(1.2,1.2);
+.imgAnimate02:hover {
+	transform: scale(2,2);
 }
+/* -------------------------------------------------- Estilos Animacion Nuestros Ejes Fin ---------------------------------------------------*/
 
-.circulo {
-	position: relative;
-	left: 100px;
-	bottom: 800px;
-	background-color: RGBA(0, 123, 255,0.5);
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	transition: all 0.3s;
-	transform: scale(1,1);
-	z-index: 1;
-}
 
-.circulo:hover {
-	background-color: RGBA(0, 123, 255,1);
-	transform: scale(1.2,1.2);
-	border-radius: 150px;
-	z-index: 10;
 
+/* -------------------------------------------------- Estilos Animacion Nuestros Ejes Inicio ---------------------------------------------------*/
+
+
+.CajaCirculos {
+	height: 340px;
+	width: 340px;
+	background-color: white;
+	padding: 0px;
+	margin-bottom: 40px;
 }
 
 .simbolo {
@@ -206,12 +363,31 @@ p {
    	filter: alpha(opacity=100);
 }
 
-	
+.circulo {
+	position: relative;
+	left: 70px;
+	bottom: 800px;
+	background-color: RGBA(0, 123, 255,0.5);
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	transition: all 0.3s;
+	transform: scale(1,1);
+	z-index: 1;
+}
+
+.circulo:hover {
+	background-color: RGBA(0, 123, 255,1);
+	transform: scale(1.2,1.2);
+	border-radius: 150px;
+	z-index: 10;
+
+}
 
 .circulo2 {
 	position: relative;
 	bottom: 550px;
-	left: 170px;
+	left: 140px;
 	background-color: RGBA(0, 123, 255,0.5);
 	width: 200px;
 	height: 200px;
@@ -232,7 +408,7 @@ p {
 .circulo3 {
 	position: relative;
 	bottom: 260px;
-	left: 145px;
+	left: 115px;
 	background-color: RGBA(0, 123, 255,0.5);
 	width: 200px;
 	height: 200px;
@@ -253,7 +429,7 @@ p {
 .circulo4 {
 	position: relative;
 	bottom: 60px;
-	left: 55px;
+	left: 25px;
 	background-color: RGBA(0, 123, 255,0.5);
 	width: 200px;
 	height: 200px;
@@ -274,7 +450,7 @@ p {
 .circulo5 {
 	position: relative;
 	top: 50px;
-	left: 30px;
+	left: 0px;
 	background-color: RGBA(0, 123, 255,0.5);
 	width: 200px;
 	height: 200px;
@@ -328,9 +504,7 @@ p {
 }
 
 .howbox01:hover {
-
 	height: 200px;
-
 }
 
 .howbox02 {
@@ -348,9 +522,7 @@ p {
 }
 
 .howbox02:hover {
-
 	height: 230px;
-
 }
 
 .howbox03 {
@@ -368,9 +540,7 @@ p {
 }
 
 .howbox03:hover {
-
 	height: 180px;
-
 }
 
 .howbox04 {
@@ -388,9 +558,7 @@ p {
 }
 
 .howbox04:hover {
-
 	height: 240px;
-
 }
 
 .howbox05 {
@@ -408,10 +576,10 @@ p {
 }
 
 .howbox05:hover {
-
 	height: 230px;
-
 }
+
+
 
 .howbox06 {
 	width: 250px;
@@ -428,9 +596,7 @@ p {
 }
 
 .howbox06:hover {
-
 	height: 200px;
-
 }
 
 .howbox07 {
@@ -448,17 +614,680 @@ p {
 }
 
 .howbox07:hover {
-
 	height: 270px;
+}
+/* -------------------------------------------------- Estilos Animacion Nuestros Ejes Fin ---------------------------------------------------*/
+
+
+/* -------------------------------------------------- Estilos Botones Proyectos Inicio---------------------------------------------------*/
+  #CajaProyectos{
+	  display: none;
+	  visibility: hidden;
+  }
+
+  #CajaProyectos02{
+	display: block;
+	visibility: visible;
+}
+
+/* -------------------------------------------------- Estilos Botones Proyectos Fin ---------------------------------------------------*/
+
+
+
+/* -------------------------------------------------- Estilos Buscador Inicio-------------------------------------------------*/
+
+.input-group.md-form.form-sm.form-1 input{
+	border: 1px solid #bdbdbd;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input {
+	border: 1px solid #bdbdbd;
+	border-top-left-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input.red-border {
+	border: 1px solid #007bff;
+  }
+
+/* -------------------------------------------------- Estilos Buscador Fin-------------------------------------------------*/
+
+
+/* -------------------------------------------------- Estilos Imagenes Carrusel Inicio ---------------------------------------------------*/
+
+	#Principal {
+		visibility: visible;
+		position: static;
+	}
+
+	#Secundaria {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	#Terciaria {
+		visibility: hidden;
+		position: absolute;
+	}
+
+/* -------------------------------------------------- Estilos Imagenes Carrusel Fin ---------------------------------------------------*/
+
+/* -------------------------------------------------- Estilos QR Inicio ---------------------------------------------------*/
+#QR {
+	margin-top: 10px;
+	width: 150px;
+	height: 150px;
+}
+/* -------------------------------------------------- Estilos QR Fin ---------------------------------------------------*/
+
+/*------------------------------------------ Media Querys Pantallas ------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 300px) and (max-width: 599px) {
+
+	h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 900;
+		background-color: none;
+		font-size: 2.0rem;
+	}
+	
+
+	#Principal {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	#Secundaria {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	#Terciaria {
+		visibility: visible;
+		position: static;
+	}
+
+	#CajaProyectos{
+		display: block;
+		visibility: visible;
+	}
+
+	#CajaProyectos02{
+		display: none;
+		visibility: hidden;
+	}
+
+	#QR {
+		margin-top: 10px;
+		width: 120px;
+		height: 120px;
+	}
+
+	.NoticiaCaja01 {
+		width: 100%;
+		height: 350px;
+		background-color: white;
+		display: inline-block;
+		overflow: hidden;
+	}
+	
+	.NoticiaCaja02 {
+		width: 100%;
+		height: 35px;
+		background-color: white;
+		display: inline-block;
+	}
+	
+	.NoticiaCaja03 {
+		width: 100%;
+		height: 735px;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
+	.NoticiaCaja04 {
+		width: 100%;
+		height: 350px;
+		background-color: white;
+		display: block;
+		overflow: hidden;
+	}
+	
+	.NoticiaCaja05 {
+		width: 100%;
+		height: 350px;
+		background-color: white;
+		display: block;
+		overflow: hidden;
+	}
+
+	.NoticiaCaja01Color {
+		width: 100%;
+		height: 65%;
+		position: absolute;
+		top: 35%;
+	}
+
+	.NoticiaCaja02Color {
+		width: 100%;
+		height: 65%;
+		position: absolute;
+		top: 35%;
+
+	}
+
+	.noticia01 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		text-align: justify;
+	}
+	
+	.noticia02 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 16px;
+		text-align: justify;
+	}
+	
+	#BotonNoticia {
+		display: flex;
+		justify-content: center;
+	}
+
+	.CajaCirculos {
+		height: 260px;
+		width: 260px;
+		background-color: white;
+		padding: 0px;
+		margin-bottom: 40px;
+	}
+
+	.simbolo {
+		width: 100px;
+		height: 100px;
+		position: relative;
+		top: 25px;
+		left: 25px;
+		transition: all 0.3s;
+		opacity: 0.0;
+		filter: alpha(opacity=100);
+	}
+	
+	.simbolo:hover {
+		opacity: 1.0;
+		   filter: alpha(opacity=100);
+	}
+
+	.circulo {
+		position: relative;
+		left: 55px;
+		bottom: 600px;
+		background-color: RGBA(0, 123, 255,0.5);
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		transition: all 0.3s;
+		transform: scale(1,1);
+		z-index: 1;
+	}
+	
+	.circulo:hover {
+		background-color: RGBA(0, 123, 255,1);
+		transform: scale(1.2,1.2);
+		border-radius: 150px;
+		z-index: 10;
+	
+	}
+	
+	.circulo2 {
+		position: relative;
+		bottom: 400px;
+		left: 110px;
+		background-color: RGBA(0, 123, 255,0.5);
+		width: 150px;
+		height: 150px;
+		border-radius: 120px;
+		transition: all 0.3s;
+		z-index: 1;
+		transform: scale(1,1);
+	}
+	
+	.circulo2:hover {
+		background-color: RGBA(0, 123, 255,1);
+		transform: scale(1.2,1.2);
+		border-radius: 150px;
+		z-index: 10;
+	
+	}
+	
+	.circulo3 {
+		position: relative;
+		bottom: 190px;
+		left: 90px;
+		background-color: RGBA(0, 123, 255,0.5);
+		width: 150px;
+		height: 150px;
+		border-radius: 120px;
+		transition: all 0.3s;
+		z-index: 1;
+		transform: scale(1,1);
+	}
+	
+	.circulo3:hover {
+		background-color: RGBA(0, 123, 255,1);
+		transform: scale(1.2,1.2);
+		border-radius: 150px;
+		z-index: 10;
+	
+	}
+	
+	.circulo4 {
+		position: relative;
+		bottom: 40px;
+		left: 20px;
+		background-color: RGBA(0, 123, 255,0.5);
+		width: 150px;
+		height: 150px;
+		border-radius: 120px;
+		transition: all 0.3s;
+		z-index: 1;
+		transform: scale(1,1);
+	}
+	
+	.circulo4:hover {
+		background-color: RGBA(0, 123, 255,1);
+		transform: scale(1.2,1.2);
+		border-radius: 150px;
+		z-index: 10;
+	
+	}
+	
+	.circulo5 {
+		position: relative;
+		top: 50px;
+		left: 0px;
+		background-color: RGBA(0, 123, 255,0.5);
+		width: 150px;
+		height: 150px;
+		border-radius: 120px;
+		transition: all 0.3s;
+		z-index: 1;
+		transform: scale(1,1);
+	}
+	
+	.circulo5:hover {
+		background-color: RGBA(0, 123, 255,1);
+		transform: scale(1.2,1.2);
+		border-radius: 150px;
+		z-index: 10;
+	
+	}
+	
+	.circulo6 {
+		position: relative;
+		top: 45px;
+		left: 15px;
+		background-color: RGBA(0, 123, 255,0.5);
+		width: 200px;
+		height: 200px;
+		border-radius: 120px;
+		transition: all 0.3s;
+		z-index: 1;
+		transform: scale(1,1);
+	}
+	
+	.circulo6:hover {
+		background-color: RGBA(0, 123, 255,1);
+		transform: scale(1.2,1.2);
+		border-radius: 150px;
+		z-index: 10;
+	
+	}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+
+	#Principal {
+		visibility: hidden;
+		position: absolute;
+	}
+	
+	#Secundaria {
+		visibility: visible;
+		position: static;
+	}
+	
+	#Terciaria {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.NoticiaCaja01 {
+		width: 100%;
+		height: 400px;
+		background-color: white;
+		display: inline-block;
+		overflow: hidden;
+	}
+	
+	.NoticiaCaja02 {
+		width: 100%;
+		height: 35px;
+		background-color: white;
+		display: inline-block;
+	}
+	
+	.NoticiaCaja03 {
+		width: 100%;
+		height: 835px;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
+	.NoticiaCaja04 {
+		width: 100%;
+		height: 400px;
+		background-color: white;
+		display: block;
+		overflow: hidden;
+	}
+	
+	.NoticiaCaja05 {
+		width: 100%;
+		height: 400px;
+		background-color: white;
+		display: block;
+		overflow: hidden;
+	}
+
+	.NoticiaCaja01Color {
+		width: 100%;
+		height: 65%;
+		position: absolute;
+		top: 35%;
+	}
+
+	.NoticiaCaja02Color {
+		width: 100%;
+		height: 65%;
+		position: absolute;
+		top: 35%;
+
+	}
+
+	.noticia01 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	.noticia02 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	#BotonNoticia {
+		display: flex;
+		justify-content: center;
+	}
+	
 
 }
 
-.rounded {
-	padding: 15px;
-	max-width: 900px;
-	max-height: 900px;
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 800px) {
+
+	#Principal {
+		visibility: hidden;
+		position: absolute;
+	}
+		
+	#Secundaria {
+		visibility: visible;
+		position: static;
+	}
+		
+	#Terciaria {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	.NoticiaCaja01 {
+		width: 210px;
+		height: 220px;
+		background-color: white;
+		display: inline-block;
+		overflow: hidden;
+	}
+	
+	.NoticiaCaja02 {
+		width: 20px;
+		height: 220px;
+		background-color: white;
+		display: inline-block;
+	}
+	
+	.NoticiaCaja03 {
+		width: 440px;
+		height: 220px;
+		background-color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	.NoticiaCaja04 {
+		width: 210px;
+		height: 220px;
+		background-color: white;
+		display: block;
+		overflow: hidden;
+	}
+	
+	.NoticiaCaja05 {
+		width: 210px;
+		height: 220px;
+		background-color: white;
+		display: block;
+		overflow: hidden;
+	}
+
+	.NoticiaCaja01Color {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0%;
+	}
+
+	.NoticiaCaja02Color {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0%;
+
+	}
+
+	.noticia01 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 12px;
+		text-align: justify;
+	}
+	
+	.noticia02 {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		font-size: 12px;
+		text-align: justify;
+	}
+
+	#BotonNoticia {
+		display: flex;
+		justify-content: center;
+	}
+
 }
 
-.azulOscuro {
-	background-color: #232948;
-}
+/* Large devices (laptops/desktops, 800px and up) */
+
+	@media (min-width: 801px) and (max-width: 992px) {
+
+		.NoticiaCaja01 {
+			width: 60%;
+			height: 400px;
+			background-color: white;
+			display: inline-block;
+			overflow: hidden;
+		}
+		
+		.NoticiaCaja02 {
+			width: 3%;
+			height: 400px;
+			background-color: white;
+			display: inline-block;
+		}
+		
+		.NoticiaCaja03 {
+			width: 35%;
+			height: 400px;
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		.NoticiaCaja04 {
+			width: 100%;
+			height: 47%;
+			background-color: white;
+			display: block;
+			overflow: hidden;
+		}
+		
+		.NoticiaCaja05 {
+			width: 100%;
+			height: 47%;
+			background-color: white;
+			display: block;
+			overflow: hidden;
+		}
+
+		.NoticiaCaja01Color {
+			width: 100%;
+			height: 80%;
+			position: absolute;
+			top: 20%;
+		}
+
+		.NoticiaCaja02Color {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0%;
+
+		}
+
+		.noticia01 {
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			font-size: 20px;
+			text-align: justify;
+		}
+		
+		.noticia02 {
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			font-size: 12px;
+			text-align: justify;
+		}
+
+
+	}
+
+/* Extra large devices (large laptops and desktops, 992px and up) */
+
+	@media (min-width: 993px) and (max-width: 1200px) {
+		.NoticiaCaja01 {
+			width: 60%;
+			height: 500px;
+			background-color: white;
+			display: inline-block;
+			overflow: hidden;
+		}
+		
+		.NoticiaCaja02 {
+			width: 3%;
+			height: 500px;
+			background-color: white;
+			display: inline-block;
+		}
+		
+		.NoticiaCaja03 {
+			width: 35%;
+			height: 500px;
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		.NoticiaCaja04 {
+			width: 100%;
+			height: 47%;
+			background-color: white;
+			display: block;
+			overflow: hidden;
+		}
+		
+		.NoticiaCaja05 {
+			width: 100%;
+			height: 47%;
+			background-color: white;
+			display: block;
+			overflow: hidden;
+		}
+
+		.noticia01 {
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			font-size: 22px;
+			text-align: justify;
+		}
+		
+		.noticia02 {
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			font-size: 16px;
+			text-align: justify;
+		}
+	}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+	@media (min-width: 1201px) and (max-width: 1366px) {
+
+	}
+/*------------------------------------------ Media Querys Pantallas ------------------------------------------*/
+
+
