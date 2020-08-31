@@ -35,6 +35,8 @@ nav {
 }
 /* -------------------------------------------------- Estilos Generales Fin ---------------------------------------------------*/
 
+
+
 /* -------------------------------------------------- Estilos Textos Inicio ---------------------------------------------------*/
 #interletrado {
 	letter-spacing: -1px;
@@ -101,6 +103,12 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 14px;
+}
+
+.pie3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
 }
 
 .titulo_pie {
