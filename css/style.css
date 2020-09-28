@@ -193,6 +193,45 @@ p {
 	font-size: 15px;
 	line-height : 40px;
 }
+
+.IconosALAC {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height : 40px;
+	color:  #0057a6;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.TextALAC01 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 60px;
+	line-height : 40px;
+	color:  #0057a6;
+}
+
+.TextALAC02 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	line-height : 40px;
+	color:  #0057a6;
+}
+
+.TextALAC03 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height : 40px;
+	color:  #0057a6;
+	position: relative;
+	top: -15px;
+	line-height: 1.2;
+	text-align: center;
+
+}
 /* -------------------------------------------------- Estilos Textos Fin ---------------------------------------------------*/
 
 
