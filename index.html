@@ -65,7 +65,6 @@
                     <div class="dropdown-menu">
                       <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="codigoEtica.html">Código de Ética</a>
                       <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="estatuto.html">Estatuto</a>
-                      <!--<a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="donantesAlianzas.html">Donantes y Alianzas</a>-->
                       <a class="dropdown-item text-primary" style="font-size: 14px;font-weight: 700;" href="MemoriasBalances.html">Memorias y Balances</a>
                     </div>
                   </div>    
@@ -251,11 +250,11 @@
               <div class="col-12" id="AccesoJusticia" style="display: none;">
                 <br>
                 <li class="media">
-                  <img src= "images/index/iconoE-01.svg" class="mr-3" alt="..." style="width: 55px;height: 55px;">
+                  <img src= "images/index/iconoE-01.svg" class="mr-3" alt="..." style="width: 55px; height: 55px;">
                   <div class="media-body" style="margin-top: 15px;">
                     <h5 class="mt-0 mb-1 text-left text-primary">Acceso a la justicia</h5>
                   </div>
-                <li>
+                </li>
                 <hr class="my-4" style="position: relative; top: 0px;">
                 <div class="media-body" style="margin-top: 0px;">
                   <p class="mt-0 mb-1 text-justify ejes">
@@ -312,17 +311,17 @@
           <div class="col-12">
             <h1 class="text-primary text-primary text-center text-sm-center text-md-left text-lg-left text-xl-left">¿Cómo podés participar?</h1>
           </div>   
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-            <img src="images/index/iconos-01.png" class="card-img-top" alt="...">
-            <div class="card-body" style="height: 200px;">
-              <h5 class="card-title text-center text-primary">Sumate</h5>
-              <p class="card-text text-center">Vos también podés ser parte.</p>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
+            <img src="images/index/iconos-01.png" class="card-img-top" id="Iconos_Participar" alt="...">
+            <div class="card-body Participar_Altura">
+              <h5 class="card-title text-center text-primary" id="Participar_titulo">Sumate</h5>
+              <p class="card-text text-center" id="Participar_texto">Vos también podés ser parte.</p>
             </div>
             <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
-              <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Sumate!</button>
+              <a role="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center" href="voluntarios.html">¡Sumate!</a>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+          <!--<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
             <img src="images/index/iconos-02.png" class="card-img-top" alt="...">
               <div class="card-body" style="height: 200px;overflow:auto;">
                 <h5 class="card-title text-center text-primary">Doná.</h5>
@@ -331,22 +330,22 @@
               <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
                 <button type="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center">¡Donar!</button>
               </div>
-          </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-            <img src="images/index/iconos-03.png" class="card-img-top" alt="...">
-            <div class="card-body" style="height: 200px;">
-              <h5 class="card-title text-center text-primary">Denunciá</h5>
-              <p class="card-text text-center">Tu voz puede marcar la diferencia. </p>
+          </div>-->
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
+            <img src="images/index/iconos-03.png" class="card-img-top" id="Iconos_Participar" alt="...">
+            <div class="card-body Participar_Altura">
+              <h5 class="card-title text-center text-primary" id="Participar_titulo">Denunciá</h5>
+              <p class="card-text text-center" id="Participar_texto">Tu voz puede marcar la diferencia. </p>
             </div>
             <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
               <a role="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center" href="denuncia.html">¡Denunciá!</a>
             </div>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-            <img src="images/index/iconos-04.png" class="card-img-top" alt="...">
-            <div class="card-body" style="height:200px;">
-              <h5 class="card-title text-center text-primary">Contactanos</h5>
-              <p class="card-text text-center">Queremos escucharte.</p>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center">
+            <img src="images/index/iconos-04.png" class="card-img-top" id="Iconos_Participar" alt="...">
+            <div class="card-body Participar_Altura">
+              <h5 class="card-title text-center text-primary" id="Participar_titulo">Contactanos</h5>
+              <p class="card-text text-center" id="Participar_texto">Queremos escucharte.</p>
             </div>
             <div class="d-flex justify-content-center" style="margin-top: 10px;"> 
               <a role="button" class="btn btn-outline-primary btn-sm d-flex justify-content-center" href="contacto.html">¡Contactanos!</a>
@@ -393,7 +392,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/proyectos/menu/proyecto03/Círculos virtuosos.png" class="d-block w-100" alt="...">
+                <img src="images/proyectos/menu/proyecto03/CírculosVirtuosos.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block" style="margin-bottom: 10px;background-color: rgba(255, 255, 255, 0.75);padding: 20px;">
                 <h4 class="font-weight-bold text-dark">Círculos virtuosos: Co-creación de entornos de integridad en el sector energético para el desarrollo sostenible</h4>
                 <p class="text-dark carrusel">La energía es movimiento. Y para un país como Argentina, el desarrollo energético puede generar un verdadero impulso hacia un crecimiento productivo que impacte positivamente en las condiciones de vida de toda su población.</p>
@@ -504,7 +503,7 @@
               </div>
             </div>
           </div> 
-        </div>  
+        </div>
       </div>
       <br>
       <br>

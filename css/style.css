@@ -727,10 +727,35 @@ p {
 }
 /* -------------------------------------------------- Estilos QR Fin ---------------------------------------------------*/
 
+/* -------------------------------------------------- Estilos Altura Sección de Como Podes Participar Inicio ---------------------------------------------------*/
+.Participar_Altura{
+	height: 170px;
+}
+/* -------------------------------------------------- Estilos Sección de Como Podes Participar Fin ---------------------------------------------------*/
+
+
 /*------------------------------------------ Media Querys Pantallas ------------------------------------------*/
 
 /* Extra small devices (phones, 600px and down) */
 @media (min-width: 300px) and (max-width: 599px) {
+
+	#Iconos_Participar{
+		
+		width: 80%;
+	}
+
+	.Participar_Altura {
+		height: 110px;
+	}
+
+	#Participar_titulo {
+		font-size: 16px;
+	}
+
+	#Participar_texto {
+		font-size: 16px;
+		line-height : 20px;
+	}
 
 	h1 {
 		font-family: 'Open Sans', sans-serif;
@@ -1000,6 +1025,18 @@ p {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) and (max-width: 767px) {
+
+	.Participar_Altura{
+		height: 180px;
+	}
+
+	#Participar_titulo {
+		font-size: 18px;
+	}
+
+	#Participar_texto {
+		font-size: 18px;
+	}
 
 	#Principal {
 		visibility: hidden;
